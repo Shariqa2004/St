@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Editkaro.in Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-filter="all">All</a></li>
+                <li><a href="#" data-filter="short-form">Short Form</a></li>
+                <li><a href="#" data-filter="long-form">Long Form</a></li>
+                <li><a href="#" data-filter="gaming">Gaming</a></li>
+                <li><a href="#" data-filter="football">Football Edits</a></li>
+                <li><a href="#" data-filter="ecommerce">eCommerce Ads</a></li>
+                <li><a href="#" data-filter="documentary">Documentary</a></li>
+                <li><a href="#" data-filter="color-grading">Color Grading</a></li>
+                <li><a href="#" data-filter="anime">Anime Videos</a></li>
+                <li><a href="#" data-filter="ads">Ads</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="portfolio">
+        <div class="video" data-category="short-form">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Short Form Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="long-form">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Long Form Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="gaming">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Gaming Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="football">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Football Edits Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="ecommerce">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>eCommerce Ads Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="documentary">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Documentary Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="color-grading">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Color Grading Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="anime">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Anime Videos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+        <div class="video" data-category="ads">
+            <video controls src="https://www.w3schools.com/tags/movie.mp4"></video>
+            <h3>Ads Video</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="lightbox-btn">Watch in Lightbox</button>
+        </div>
+    </main>
+
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <video controls id="lightbox-video"></video>
+            <button class="close-lightbox-btn">&times;</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Editkaro.in</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
